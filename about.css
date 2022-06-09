@@ -1,0 +1,41 @@
+body{
+    background: url("./bg_img.jpg") no-repeat center center/cover;
+}
+
+.nav-item{
+    color: white;
+}
+
+main{
+    border: 2px solid white;
+    border-radius: 75px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20vh;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+}
+
+.donate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50%;
+}
+
+.donatebtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    color: white;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
